@@ -5,8 +5,8 @@ namespace Mailnebula\Api\SwiftSender;
 
 class Sender {
     public function sender($adresats, $subject, $body, $attachments = null) {
-        $mail_user = 'orest.sarabun@skystorage.pl';
-        $mail_pass = '{developer}';
+        $mail_user = '';
+        $mail_pass = '';
 
         if($attachments == null) {
             $transport = \Swift_SmtpTransport::newInstance('ssl://smtp.gmail.com', 465)

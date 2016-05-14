@@ -1,9 +1,4 @@
 <?php
-
-//    header('Location: /Mailnebula/Administration/admin/login.php');
-
-
-
 require_once 'vendor/autoload.php';
 
 use Mailnebula\Api\Imap\ImapConnection;
@@ -24,7 +19,7 @@ use Mailnebula\Api\ApiFilenebula;
  * hasło
  *
  */
-$connection = new ImapConnection('Imap.gmail.com', 993, 'Imap', 'ssl', 'mailnebulatest@gmail.com', 'tajemnica');
+$connection = new ImapConnection('Imap.gmail.com', 993, 'Imap', 'ssl', '', '');
 
 $imap_resource = new ImapMessage($connection);
 $quantity = $imap_resource->msgCount();

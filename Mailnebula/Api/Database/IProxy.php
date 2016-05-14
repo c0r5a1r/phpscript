@@ -7,7 +7,7 @@ interface IProxy
 {
     const DSN = 'mysql:host=localhost;dbname=Mailnebula';
     const USERNAME = 'root';
-    const USERPASSWORD = 'ju6iCohv';
+    const USERPASSWORD = '';
 
     public function connect();
 }
