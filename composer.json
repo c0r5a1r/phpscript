@@ -1,0 +1,14 @@
+{
+  "autoload": {
+    "psr-0": {
+      "Mailnebula\\Api\\File\\": "",
+      "Mailnebula\\Api\\Imap\\": "",
+      "Mailnebula\\Api\\Database\\": "",
+      "Mailnebula\\Api": "",
+      "Mailnebula\\Api\\Links": ""
+    }
+  },
+  "require": {
+    "swiftmailer/swiftmailer": "^5.4"
+  }
+}

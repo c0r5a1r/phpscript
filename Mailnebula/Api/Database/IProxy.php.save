@@ -1,0 +1,16 @@
+<?php
+
+namespace Mailnebula\Api\Database;
+
+
+interface IProxy
+{
+    const DSN = 'mysql:host=localhost;dbname=Mailnebula';
+    const USERNAME = 'root';
+    const USERPASSWORD = 'CREATE TABLE mails_id (
+	id int(11) UNSIGNED  NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  mail_id int not null
+) CHARACTER SET utf8 COLLATE utf8_general_ci;';
+
+    public function connect();
+}

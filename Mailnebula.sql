@@ -1,0 +1,8 @@
+CREATE DATABASE Mailnebula
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
+
+CREATE TABLE mails_id (
+	id int(11) UNSIGNED  NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  mail_id int not null
+) CHARACTER SET utf8 COLLATE utf8_general_ci;

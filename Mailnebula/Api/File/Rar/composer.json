@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dmamontov/rararchiver": "~1.0.0"
+    }
+}

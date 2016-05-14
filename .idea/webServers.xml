@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="748d80f9-eda8-46a9-a40f-2479641e24bd" name="vps1.skystorage.pl" url="http://vps1.skystorage.pl">
+        <fileTransfer host="vps1.skystorage.pl" port="22" accessType="SFTP" password="dfdadfcbdfc3df99dfe3dfcddf9edfdc" username="dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

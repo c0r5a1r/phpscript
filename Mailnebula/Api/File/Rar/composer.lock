@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "27d9c0399ec2709f57e34252e6fa5ddb",
+    "content-hash": "08d4315936506fc9505eb046f13f6f4a",
+    "packages": [
+        {
+            "name": "dmamontov/rararchiver",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmamontov/rararchiver.git",
+                "reference": "b2c028e4b0706edd5c06ca8691ee66c28ccf0598"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmamontov/rararchiver/zipball/b2c028e4b0706edd5c06ca8691ee66c28ccf0598",
+                "reference": "b2c028e4b0706edd5c06ca8691ee66c28ccf0598",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.0.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "RarArchiver.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Mamontov",
+                    "email": "hello@slobel.ru",
+                    "role": "lead"
+                }
+            ],
+            "description": "Class for working with archives RAR.",
+            "homepage": "http://www.slobel.ru/",
+            "keywords": [
+                "archiver",
+                "archives",
+                "rar",
+                "winrar"
+            ],
+            "time": "2015-05-29 13:57:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
