@@ -104,8 +104,8 @@ $imap_resource->close();
  *
  *
  */
-$user = "nebula.2test@gmail.com";
-$pass = "tajemnica";
+$user = "";
+$pass = "";
 
 $api = new ApiFilenebula();
 
